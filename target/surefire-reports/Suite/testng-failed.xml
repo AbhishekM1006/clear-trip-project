@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="Flight Booking Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="execute.FlightBookingTest">
+        <methods>
+          <include name="BookingTests"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- execute.FlightBookingTest -->
+    </classes>
+  </test> <!-- Flight Booking Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

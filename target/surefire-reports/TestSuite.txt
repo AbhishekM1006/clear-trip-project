@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.457 s <<< FAILURE! - in TestSuite
+BookingTests(execute.FlightBookingTest)  Time elapsed: 11.876 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at execute.FlightBookingTest.BookingTests(FlightBookingTest.java:15)
+
